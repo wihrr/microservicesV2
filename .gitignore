@@ -7,6 +7,14 @@
 /spring-cloud-config-server/mvnw
 /spring-cloud-config-server/git-localconfig-repo/
 
+/currency-exchange-service/.mvn
+/currency-exchange-service/mvnw.cmd
+/currency-exchange-service/mvnw
+
+/currency-conversion-service/.mvn
+/currency-conversion-service/mvnw.cmd
+/currency-conversion-service/mvnw
+
 # Default ignored files
 /shelf/
 /workspace.xml
@@ -55,4 +63,3 @@ build/
 ### VS Code ###
 .vscode/
 /.idea/workspace.xml
-
