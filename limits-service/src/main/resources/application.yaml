@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: limits-service
+  config:
+    import: optional:configserver:http://localhost:8888
+  cloud:
+    config:
+      uri: http://localhost:8888
+limits-service:
+  min: 9
+  max: 999
