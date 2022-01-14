@@ -6,6 +6,9 @@ spring:
   cloud:
     config:
       uri: http://localhost:8888
+      profile: dev
+  profiles:
+    active: dev
 limits-service:
   min: 9
   max: 999

@@ -5,6 +5,7 @@
 /spring-cloud-config-server/.mvn
 /spring-cloud-config-server/mvnw.cmd
 /spring-cloud-config-server/mvnw
+/spring-cloud-config-server/git-localconfig-repo/
 
 # Default ignored files
 /shelf/
@@ -54,3 +55,4 @@ build/
 ### VS Code ###
 .vscode/
 /.idea/workspace.xml
+

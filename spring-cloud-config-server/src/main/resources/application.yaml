@@ -5,6 +5,6 @@ spring:
     config:
       server:
         git:
-          uri: file:/home/INTEXSOFT/viktoria.vihrova/work/Intexsoft/learning/microservices/spring-cloud-config-server/git-localconfig-repo
+          uri: file:/home/INTEXSOFT/viktoria.vihrova/work/Intexsoft/learning/microservicesV2/spring-cloud-config-server/git-localconfig-repo
 server:
   port: 8888
