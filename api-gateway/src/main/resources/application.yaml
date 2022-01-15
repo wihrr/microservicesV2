@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true #interesting, but without this property zuul doesn't work correctly
+
+server:
+  port: 8765
+
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+# http://localhost:8765/currency-conversion-service/currency-converter/from/USD/to/INR/quantity/10
+
+#http://localhost:8765/currency-conversion-service/currency-converter-feign/from/USD/to/INR/quantity/10
+
+#http://localhost:8765/currency-exchange-service/currency-exchange/from/USD/to/INR
+

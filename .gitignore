@@ -15,6 +15,13 @@
 /currency-conversion-service/mvnw.cmd
 /currency-conversion-service/mvnw
 
+/netflix-eureka-naming-server/.mvn
+/netflix-eureka-naming-server/mvnw.cmd
+/netflix-eureka-naming-server/mvnw
+
+/api-gateway/.mvn
+/api-gateway/mvnw.cmd
+/api-gateway/mvnw
 # Default ignored files
 /shelf/
 /workspace.xml
@@ -63,3 +70,4 @@ build/
 ### VS Code ###
 .vscode/
 /.idea/workspace.xml
+
